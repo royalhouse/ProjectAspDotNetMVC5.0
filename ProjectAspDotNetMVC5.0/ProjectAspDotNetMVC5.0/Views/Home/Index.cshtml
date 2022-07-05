@@ -5,7 +5,8 @@
 }
 
 <h2>Index</h2>
-
+@Html.ActionLink("Mens Home","Index", "Home", new { area = "Mens" }, null)
+@Html.ActionLink("Womens Home", "Index", "Home", new { area = "Womens" }, null)
 <div>
     <h4>Employee</h4>
     <hr />
@@ -31,4 +32,6 @@
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
     @Html.ActionLink("Back to List", "Index")
+
+
 </p>

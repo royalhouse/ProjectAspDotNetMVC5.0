@@ -3,5 +3,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Index Mens</h2>
+@Html.ActionLink("Mens Home", "Index", "Home", new { area = "Mens" }, null)
+@Html.ActionLink("Womens Home", "Index", "Home", new { area = "Womens" }, null)
 

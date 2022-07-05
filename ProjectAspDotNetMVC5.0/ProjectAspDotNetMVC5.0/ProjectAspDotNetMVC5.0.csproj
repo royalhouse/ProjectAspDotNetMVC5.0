@@ -115,11 +115,12 @@
     <Content Include="Areas\Womens\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Womens\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Womens\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Mens\Views\Shared\_MensViewBody.cshtml" />
+    <Content Include="Areas\Mens\Views\Shared\_MensViewFooter.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <None Include="Properties\PublishProfiles\IISProfile.pubxml" />
-    <Content Include="Views\Home\1.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Create.cshtml" />
     <None Include="Web.Debug.config">

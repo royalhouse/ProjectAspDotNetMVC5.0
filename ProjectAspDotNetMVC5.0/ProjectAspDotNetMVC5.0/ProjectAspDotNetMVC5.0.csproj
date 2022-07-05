@@ -94,6 +94,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Mens\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Mens\MensAreaRegistration.cs" />
+    <Compile Include="Areas\Womens\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Womens\WomensAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -103,6 +107,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Areas\Mens\Views\web.config" />
+    <Content Include="Areas\Womens\Views\web.config" />
+    <Content Include="Areas\Mens\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Mens\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Mens\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Womens\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Womens\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Womens\Views\Home\Index.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -119,6 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Mens\Data\" />
+    <Folder Include="Areas\Womens\Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
